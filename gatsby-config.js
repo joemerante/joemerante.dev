@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'joemerante.dev',
-    description: `A few notes. Theme thanks to gatsby-starter-code-notes.`,
+    description: `Developer notes and quick references.`,
     author: 'Joe Merante',
   },
   plugins: [
@@ -14,7 +14,7 @@ module.exports = {
           'https://github.com/joemerante/joemerante.dev/tree/master/notes/',
         showDescriptionInSidebar: true,
         showThemeInfo: false,
-        logo: 'https://avatars0.githubusercontent.com/u/1133581?s=60&v=4',
+        logo: 'https://joemerante.dev/images/joe_headshot.png',
       },
     },
   ],
