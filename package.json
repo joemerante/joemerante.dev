@@ -1,0 +1,31 @@
+{
+  "name": "joemerante.dev",
+  "description": "A few of my notes. Theme thanks to gatsby-starter-code-notes.",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": {
+    "name": "Joe Merante",
+    "url": "https://joemerante.dev"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "clean": "gatsby clean",
+    "dev": "gatsby develop",
+    "start": "gatsby serve"
+  },
+  "dependencies": {
+    "gatsby": "^2.23.1",
+    "gatsby-theme-code-notes": "1.6.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joemerante/joemerante.dev"
+  },
+  "bugs": {
+    "url": "https://github.com/joemerante/joemerante.dev"
+  }
+}
