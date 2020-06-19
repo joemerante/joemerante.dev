@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'joemerante.dev',
-    description: `Developer notes and quick references.`,
+    description: `A collection of notes, quick references, and other ideas.`,
     author: 'Joe Merante',
   },
   plugins: [
