@@ -17,5 +17,11 @@ module.exports = {
         logo: 'https://joemerante.dev/images/joe_headshot.png',
       },
     },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-171112357-1",
+      },
+    },
   ],
 }
