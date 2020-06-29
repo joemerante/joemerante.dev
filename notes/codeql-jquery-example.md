@@ -1,19 +1,18 @@
 ---
 title: CodeQL jQuery example
 tags:
-  - Webinars
+  - AppSec
   - JavaScript
+  - Webinars
 emoji: 🐞
 link: https://www.youtube.com/watch?v=pYzfGaLTqC0
 ---
 
-May 2020 workshop on using CodeQL to look for potential xss from unsafe input to (older versions of) jQuery plugins. Passing data directly to `$` then calling functions, like `$(options.selector).text()` were xss sinks because there was no check that a DOM element was being passed in. (Use `$(document).find(options.selector).text()` instead.)
+The example below comes from a May 2020 workshop on using CodeQL. To set up CodeQL, you import code into a database to run queries against using the CodeQL language. The results of queries can be viewed inside Visual Studio Code. More resources [here](https://github.com/githubsatelliteworkshops/codeql/blob/master/javascript.md).
 
-To set up, import the code into a database used to analyze against, results of queries can be viewed inside VS Code.
+The snippet below checks for potentially unsafe input to `$` in jQuery plugins. In the older version of Bootstrap examined in the workshop, an xss vulnerability existed because the library didn't check whether actual DOM elements were being passed to `$`, creating an xss sink. For example, when `.text()` is called in code like `$(options.textSrcSelector).text()`, an unsafe string passed to `$` could be executed by jQuery. The [workshop repo](https://github.com/githubsatelliteworkshops/codeql/blob/master/javascript.md) suggests one better way to refactor the code.
 
-The from/where/select syntax is a little SQL-y, you `import javascript` to get the autocomplete goodies, use classes and predicates to organize and reuse. Note that `=` is equality, not assignment. Concept of data flow nodes and data flow analysis (like a DAG) to account for alternate syntax, indirection. Built in taint tracking
-
-More resources [here](https://github.com/githubsatelliteworkshops/codeql/blob/master/javascript.md).
+The from/where/select syntax is a little SQL-y, you `import javascript` to get the autocomplete goodies in VS Code, use classes and predicates to organize and reuse code. Note that `=` is equality, not assignment. Other concepts of data flow nodes and data flow analysis (like a DAG) to account for alternate syntax & indirection were explained well. Built in taint tracking is another neat feature.
 
 ```js
 import javascript

@@ -1,6 +1,7 @@
 ---
 title: About
 tags:
+  - About
 emoji: ℹ
 link: https://joemerante.blogspot.com/2020/06/a-new-serverless-look.html
 ---

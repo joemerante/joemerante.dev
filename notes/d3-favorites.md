@@ -1,8 +1,8 @@
 ---
 title: D3.js Favorites
 tags:
-  - JavaScript
   - Data Visualization
+  - JavaScript
 emoji: 📈
 link: https://observablehq.com/@d3/
 ---

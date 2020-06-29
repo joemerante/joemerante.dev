@@ -1,8 +1,8 @@
 ---
 title: Read-Once Objects
 tags:
-  - Books
   - AppSec
+  - Books
 emoji: 📕
 link:
 ---
