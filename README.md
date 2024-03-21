@@ -1,3 +1,5 @@
+Update 3/21/2024: I've taken down the site and migrated the posts to my old friend, [https://joemerante.blogspot.com](https://joemerante.blogspot.com), which contains some of my other writing since 2010.
+
 This site started as an afternoon project to start gathering past, present and future notes & snippets while learning about some new technologies. It's made with Gatsby.js and sits on AWS and GitHub, an easy, flexible setup for something like this. The following links were helpful in getting started:
 
 Part 1 - Gatsby
